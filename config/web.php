@@ -52,7 +52,7 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                'POST api/v1/login' => 'api/v1/login/index',
+                'POST api/v1/auth/login' => 'api/v1/login/index',
                 'POST api/v1/ticket' => 'api/v1/ticket/index',
             ],
         ],
